@@ -5,7 +5,7 @@ import QuestionCard from './components/QuestionCard';
 // types
 import { QuestionsState, Difficulty } from './API';
 // Styles
-// import { GlobalStyle, Wrapper } from './App.styles';
+import { GlobalStyle, Wrapper } from './App.styles';
 
 export type AnswerObject = {
   question: string;
@@ -70,8 +70,8 @@ const Mainc: React.FC = () => {
 
   return (
     <div style={{background:'purple'}}>
-      {/* <GlobalStyle />
-      <Wrapper> */}
+      <GlobalStyle />
+      <Wrapper>
         <h1 style={{marginTop:"100px",alignContent:"center"}}>ONLINE REACT QUIZ</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className='start' onClick={startTrivia}>
@@ -95,7 +95,7 @@ const Mainc: React.FC = () => {
             Next Question
           </button>
         ) : null}
-      {/* </Wrapper> */}
+      </Wrapper>
     </div>
   );
 };

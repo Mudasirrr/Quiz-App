@@ -78,10 +78,10 @@ export const GlobalStyle = createGlobalStyle `
     background-image: url();
     background-size: cover;
     background:pink;
-    margin: 0;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
+    // margin: 0;
+    // padding: 0 20px;
+    // display: flex;
+    // justify-content: center;
   }
   * {
     font-family: 'Catamaran', sans-serif;
