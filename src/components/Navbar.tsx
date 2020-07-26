@@ -16,9 +16,9 @@ export default function Navbarr() {
             <div className="collapse navbar-collapse" id="collapibleMenu">
                 <ul className="nav navbar-nav navbar-right">
                     <li><a href="/">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Support</a></li>
+                    <li><a href="/">About us</a></li>
+                    <li><a href="/">Contact us</a></li>
+                    <li><a href="/">Support</a></li>
                 </ul>
              
             </div>
